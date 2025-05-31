@@ -81,9 +81,140 @@ export default function AboutPage() {
                     <p className="text-blue-100">Building bridges and bringing people together</p>
                   </div>
                 </div>
+                <div className="flex items-start space-x-3">
+                  <Star className="h-6 w-6 text-green-400 mt-1 flex-shrink-0" />
+                  <div>
+                    <h3 className="text-white font-semibold">Innovation</h3>
+                    <p className="text-blue-100">Pioneering new approaches to the beautiful game</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+              <h2 className="text-3xl font-bold text-white mb-6">Kee and Guls Chithapa list:</h2>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/340626.png" 
+                      alt="Robert Lewandowski"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Fermin Lopez</h3>
+                    <p className="text-blue-200 text-sm">Midfielder</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/538.png" 
+                      alt="Frenkie de Jong"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Frenkie de Jong</h3>
+                    <p className="text-blue-200 text-sm">Midfielder</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/133609.png" 
+                      alt="Pedri"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Pedri</h3>
+                    <p className="text-blue-200 text-sm">Midfielder</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/296667.png" 
+                      alt="Gavi"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Gavi</h3>
+                    <p className="text-blue-200 text-sm">Midfielder</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/386828.png" 
+                      alt="Lamine Yamal"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Lamine Yamal</h3>
+                    <p className="text-blue-200 text-sm">Forward</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/396623.png" 
+                      alt="Ronald Araújo"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Pau Cubarsi</h3>
+                    <p className="text-blue-200 text-sm">Defender</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+              <h2 className="text-3xl font-bold text-white mb-6">Kee and Guls Hate list:</h2>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/521.png" 
+                      alt="Robert Lewandowski"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Robert Lewandowski</h3>
+                    <p className="text-blue-200 text-sm">Striker</p>
+                  </div>
+                </div>
+
+                <div className="bg-white/5 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all">
+                  <div className="aspect-square relative">
+                    <img 
+                      src="https://media.api-sports.io/football/players/127.png" 
+                      alt="Frenkie de Jong"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-white font-semibold text-lg">Ter Stegen</h3>
+                    <p className="text-blue-200 text-sm">Goalie</p>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
+
 
           {/* Stats Section */}
           <div className="bg-gradient-to-r from-red-600/20 to-blue-600/20 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
@@ -117,7 +248,7 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="bg-blue-950 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-blue-200">© 2024 FC Barcelona Frontend Project. Built with Next.js & TypeScript.</p>
+          <p className="text-blue-200">© 2024 FC Barcelona Frontend Project of Kees.</p>
         </div>
       </footer>
     </div>
